@@ -5,7 +5,7 @@
     "serve:dist": "gulp serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto",
-    "bower": "bower",
+    "bower": "./node_modules/bower/bin/bower install",
     "start": "./node_modules/gulp/bin/gulp.js serve"
   },
   "eslintConfig": {
