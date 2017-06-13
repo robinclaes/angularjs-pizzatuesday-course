@@ -1,5 +1,6 @@
 <div class="option-menu-item">
-  <img src="" alt="" class="option-menu-item__image">
+  <img class="option-menu-item__image" ng-if="$ctrl.option.image" ng-src="https://cdn-catalog.pizzahut.be/images/be/{{ $ctrl.option.image }}" />
+  <img class="option-menu-item__image option-menu-item__image--round" ng-if="$ctrl.option.images" ng-src="https://cdn-catalog.pizzahut.be/images/be/{{ $ctrl.option.images.DEFAULT }}" />
   <div class="option-menu-item__description">
     <h3 class="option-menu-item__title">{{ $ctrl.option.description }}</h3>
     <p>{{ $ctrl.option.text }}</p>
